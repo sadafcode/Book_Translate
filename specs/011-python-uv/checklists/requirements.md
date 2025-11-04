@@ -21,6 +21,8 @@
 - [x] Edge cases are identified
 - [x] Scope is clearly bounded
 - [x] Dependencies and assumptions identified
+- [x] **Evals-First methodology applied** - Business goals and success evals defined before user stories
+- [x] **Prerequisite chain resolved** - Chapter 11 positioned as tooling setup BEFORE Python syntax (Chapter 12)
 
 ## Feature Readiness
 
@@ -49,6 +51,8 @@
 - [x] AI positioned as interactive documentation interface
 - [x] Success criteria measure conceptual understanding validated through AI collaboration
 - [x] Chapter teaches "how to learn with AI" not just "UV commands"
+- [x] **Constitution v3.0.1 Evals-First** - Business goals defined upfront connecting to student employability
+- [x] **Sample prompt-response patterns** - Appendix includes 3 concrete examples showing expected format
 
 ## Documentation References
 
@@ -76,10 +80,25 @@
 
 **Recommendations for Planning Phase**:
 - Break chapter into 6-8 lessons following the user story priority order
-- Ensure each lesson includes 3-5 complete AI prompt-response examples
+- Ensure each lesson includes 3-5 complete AI prompt-response examples (use Appendix samples as template)
 - Include visual diagrams: UV vs. traditional tools, project structure, dependency resolution
 - Plan hands-on exercises where reader completes tasks by prompting AI
 - Consider including a "UV command reference" appendix (AI-generated, not for memorization)
 - Plan assessment: readers teach UV to a peer using only AI and concepts
+- **Position as bridge chapter**: Teach "managing Python projects" before "writing Python code" (professional tooling-first workflow)
+- **Emphasize evals throughout**: Each lesson should connect back to business goals (employability, productivity, AI-native mindset)
+
+**Revisions Applied** (2025-11-04):
+1. ✅ Added "Business Goals & Success Evals" section at top (Evals-First methodology)
+2. ✅ Resolved prerequisite circular dependency (Chapter 11 now explicitly positioned BEFORE Chapter 12, teaches UV conceptually without requiring Python syntax knowledge)
+3. ✅ Added Appendix with 3 sample prompt-response patterns showing expected format
+4. ✅ Updated assumptions to clarify Python syntax NOT required
+5. ✅ Added pedagogical positioning explaining "tooling setup first, code writing later" workflow
 
 **Ready for Next Phase**: ✅ YES - Proceed to `/sp.plan`
+
+**Compliance Status**:
+- Constitution v3.0.1: ✅ FULL COMPLIANCE (Evals-First applied)
+- COWRITER-GUIDE: ✅ FULL COMPLIANCE (Business goals, success evals, quality standards)
+- Chapter-index.md: ✅ ALIGNED (Part 4, Chapter 11, Intermediate tier)
+- Output-styles: ✅ READY (will apply during implementation)
