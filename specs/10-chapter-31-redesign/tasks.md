@@ -17,7 +17,7 @@ Chapter 31 implementation organized into **8 major milestones** (one per lesson)
 ## Phase 1: Setup & Foundation (2-3 hours)
 
 ### Milestone 1.1: Environment Ready
-- [ ] Create chapter directory: `book-source/docs/05-Spec-Driven-Development/31-specifyplus-hands-on/`
+- [ ] Create chapter directory: `book-source/docs/05-Spec-Driven-Development/31-spec-kit-plus-hands-on/`
 - [ ] Verify branch: `claude/what-skill-011CUpWbAZvCt9xZdMJj3MEu`
 - [ ] Create chapter README with overview + 8-lesson structure
 
