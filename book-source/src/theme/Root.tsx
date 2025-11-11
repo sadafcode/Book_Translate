@@ -1,20 +1,20 @@
 /**
  * Docusaurus Root Component
- * 
- * This component wraps the entire site with the AnalyticsTracker,
- * enabling automatic tracking of user interactions (page views, scroll depth, etc.)
- * 
- * GA4 is configured via the GA4_MEASUREMENT_ID environment variable.
- * If not set, analytics will not load.
+ * * This component wraps the entire site with the AnalyticsTracker and the Google Translate script loader,
+ * ensuring the translation functionality is available globally.
  */
 
 import React from 'react';
 import { AnalyticsTracker } from '@/components/AnalyticsTracker';
+// Import Google Translate component
+import GoogleTranslate from '../components/GoogleTranslate'; 
 
 export default function Root({ children }: { children: React.ReactNode }) {
   return (
     <AnalyticsTracker>
       {children}
+      {/*  Render Google Translate globally */}
+      <GoogleTranslate />
     </AnalyticsTracker>
   );
 }
